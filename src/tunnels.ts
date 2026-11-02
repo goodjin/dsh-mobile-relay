@@ -31,7 +31,7 @@
 import { createHash } from 'node:crypto'
 import { readFileSync } from 'node:fs'
 import { createServer, type Server } from 'node:net'
-import type { SshConnectionConfig } from '@threadharbor/dsh-host-federation/ssh/types'
+import type { SshConnectionConfig } from '@goodjin2/dsh-host-federation/ssh/types'
 import type { RelayMachineConfig } from './index.ts'
 import { StateStore, type RelayStateDocument } from './state.ts'
 

@@ -19,8 +19,8 @@
  * 真去读时只拿到假象。将来若凭据层补上持久标记，这里加一态很容易。
  */
 
-import { queryTailscalePeers } from '@threadharbor/dsh-host-federation/tailscale'
-import type { TailscalePeer, TailscaleStatusRun } from '@threadharbor/dsh-host-federation/tailscale'
+import { queryTailscalePeers } from '@goodjin2/dsh-host-federation/tailscale'
+import type { TailscalePeer, TailscaleStatusRun } from '@goodjin2/dsh-host-federation/tailscale'
 import type { RelayMachineConfig } from './index.ts'
 
 /** 清单 exact 路由的路径；手机端中转页按这个常量取可达机器清单。 */

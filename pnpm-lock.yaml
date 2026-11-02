@@ -11,9 +11,9 @@ importers:
       '@deepseek-ai/schemastery':
         specifier: ^3.18.4
         version: 3.18.5
-      '@threadharbor/dsh-host-federation':
-        specifier: file:../../threadharbor/packages/dsh-host-federation
-        version: file:../../threadharbor/packages/dsh-host-federation
+      '@goodjin2/dsh-host-federation':
+        specifier: file:../threadharbor/packages/dsh-host-federation
+        version: file:../threadharbor/packages/dsh-host-federation
       ws:
         specifier: ^8.21.0
         version: 8.22.1
@@ -255,6 +255,9 @@ packages:
       '@noble/hashes':
         optional: true
 
+  '@goodjin2/dsh-host-federation@file:../threadharbor/packages/dsh-host-federation':
+    resolution: {directory: ../threadharbor/packages/dsh-host-federation, type: directory}
+
   '@jridgewell/sourcemap-codec@1.6.0':
     resolution: {integrity: sha512-T7jf+5zgsZHwNJ4lvQ7/aezbyk0nNX+zJVWpmHA7VYsEx7a7qr5Rg5IbtJFqkgze5Y2sruq1RUY8Q837Od7iFw==}
 
@@ -410,9 +413,6 @@ packages:
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
-
-  '@threadharbor/dsh-host-federation@file:../../threadharbor/packages/dsh-host-federation':
-    resolution: {directory: ../../threadharbor/packages/dsh-host-federation, type: directory}
 
   '@types/chai@5.2.3':
     resolution: {integrity: sha512-Mw558oeA9fFbv65/y4mHtXDs9bPnFMZAL/jxdPFUpOHHIXX91mcgEHbS5Lahr+pwZFR8A7GQleRWeI6cGFC2UA==}
@@ -922,6 +922,10 @@ snapshots:
 
   '@exodus/bytes@1.16.0': {}
 
+  '@goodjin2/dsh-host-federation@file:../threadharbor/packages/dsh-host-federation':
+    dependencies:
+      '@deepseek-ai/schemastery': 3.18.5
+
   '@jridgewell/sourcemap-codec@1.6.0': {}
 
   '@napi-rs/lzma-linux-x64-gnu@1.5.1':
@@ -1006,10 +1010,6 @@ snapshots:
     optional: true
 
   '@standard-schema/spec@1.1.0': {}
-
-  '@threadharbor/dsh-host-federation@file:../../threadharbor/packages/dsh-host-federation':
-    dependencies:
-      '@deepseek-ai/schemastery': 3.18.5
 
   '@types/chai@5.2.3':
     dependencies:

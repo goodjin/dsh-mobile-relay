@@ -13,7 +13,7 @@ import type { IncomingMessage, ServerResponse } from 'node:http'
 import { apply, type MobileEntryConfig } from '../../src/mobile-entry/index.ts'
 import { PEERS_PATH, registerPeersRoute, swapProbeFetch, type DshProbeFetch } from '../../src/mobile-entry/peers.ts'
 import type { MobileRouteContext } from '../../src/mobile-entry/static-serve.ts'
-import type { TailscaleStatusRun } from '@threadharbor/dsh-host-federation/tailscale'
+import type { TailscaleStatusRun } from '@goodjin2/dsh-host-federation/tailscale'
 
 /** registerPeersRoute / apply 需要的宿主面在单测里拿不到，用最小桩捕获注册调用。 */
 type RouteHandler = (req: IncomingMessage, res: ServerResponse) => void | Promise<void>

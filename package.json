@@ -1,5 +1,5 @@
 {
-  "name": "@goodjin/dsh-mobile-relay",
+  "name": "@goodjin2/dsh-mobile-relay",
   "version": "0.1.0",
   "description": "DSH plugin: cloud relay for mobile access — public entry, SSH tunnels, session/approval forwarding, mobile page",
   "repository": {
@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "@deepseek-ai/schemastery": "^3.18.4",
-    "@threadharbor/dsh-host-federation": "file:../../threadharbor/packages/dsh-host-federation",
+    "@goodjin2/dsh-host-federation": "file:../threadharbor/packages/dsh-host-federation",
     "ws": "^8.21.0"
   },
   "devDependencies": {

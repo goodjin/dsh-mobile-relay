@@ -1,4 +1,4 @@
-# @goodjin/dsh-mobile-relay
+# @goodjin2/dsh-mobile-relay
 
 [English](README.md) | [中文](README.zh.md)
 
@@ -28,7 +28,7 @@ Or add to your profile's `package.json`:
 
 ```json
 {
-  "dependencies": { "@goodjin/dsh-mobile-relay": "^0.1.0" }
+  "dependencies": { "@goodjin2/dsh-mobile-relay": "^0.1.0" }
 }
 ```
 
@@ -36,12 +36,12 @@ And mount it in your profile's `cordis.patch.yml`:
 
 ```yaml
 - id: threadharbor-mobile-relay
-  name: '@goodjin/dsh-mobile-relay'
+  name: '@goodjin2/dsh-mobile-relay'
 ```
 
 ## Dependencies
 
-- `@threadharbor/dsh-host-federation` — SSH manager, Tailscale discovery, shared types (currently resolved via a local `file:` link to the threadharbor checkout; will move to its own published package)
+- `@goodjin2/dsh-host-federation` — SSH manager, Tailscale discovery, shared types (currently resolved via a local `file:` link to the threadharbor checkout; will move to its own published package)
 
 ## Requirements
 

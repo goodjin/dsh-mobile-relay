@@ -6,7 +6,7 @@
  */
 
 import { describe, expect, it, vi } from 'vitest'
-import type { TailscaleStatusRun } from '@threadharbor/dsh-host-federation/tailscale'
+import type { TailscaleStatusRun } from '@goodjin2/dsh-host-federation/tailscale'
 import { HostRegistry, RELAY_HOSTS_PATH, type HostProbeFetch, type HostRegistryDeps } from '../src/hosts.ts'
 
 const MACHINE_A = { hostId: 'mac-a', target: 'mac-a', remotePort: 3081, logPath: '/l.log' }

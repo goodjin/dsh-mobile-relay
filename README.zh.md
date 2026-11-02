@@ -1,4 +1,4 @@
-# @goodjin/dsh-mobile-relay
+# @goodjin2/dsh-mobile-relay
 
 [English](README.md) | [中文](README.zh.md)
 
@@ -28,7 +28,7 @@ echo "@goodjin:registry=https://npm.pkg.github.com" >> ~/.npmrc
 
 ```json
 {
-  "dependencies": { "@goodjin/dsh-mobile-relay": "^0.1.0" }
+  "dependencies": { "@goodjin2/dsh-mobile-relay": "^0.1.0" }
 }
 ```
 
@@ -36,12 +36,12 @@ echo "@goodjin:registry=https://npm.pkg.github.com" >> ~/.npmrc
 
 ```yaml
 - id: threadharbor-mobile-relay
-  name: '@goodjin/dsh-mobile-relay'
+  name: '@goodjin2/dsh-mobile-relay'
 ```
 
 ## 依赖
 
-- `@threadharbor/dsh-host-federation` — SSH 管理器、Tailscale 发现、共享类型（当前以本地 `file:` 链接解析到 threadharbor checkout；后续随其独立发布切换为正式包）
+- `@goodjin2/dsh-host-federation` — SSH 管理器、Tailscale 发现、共享类型（当前以本地 `file:` 链接解析到 threadharbor checkout；后续随其独立发布切换为正式包）
 
 ## 要求
 

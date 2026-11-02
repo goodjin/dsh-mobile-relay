@@ -16,8 +16,8 @@
  * 留着会让下一条请求吃到别的账。
  */
 
-import { queryTailscalePeers } from '@threadharbor/dsh-host-federation/tailscale'
-import type { TailscalePeer, TailscaleStatusRun } from '@threadharbor/dsh-host-federation/tailscale'
+import { queryTailscalePeers } from '@goodjin2/dsh-host-federation/tailscale'
+import type { TailscalePeer, TailscaleStatusRun } from '@goodjin2/dsh-host-federation/tailscale'
 import type { ServerResponse } from 'node:http'
 import { HELLO_PATH, type MobileRouteContext } from './static-serve.ts'
 
